@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.hero{
+   
+    background-image: url("mv.jpg");
+    background-size:cover;
+    padding-top: 113px;
+    padding-bottom: 182px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title{
+    color: white;
+    background-color: #1D3557;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    padding: 3px 12px;
+}
+.subtitle{
+    background-color: #457B9D;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    border-radius: 10px;
+    padding:5px 20px
+}
+
+.activities{
+    padding-top: 39px;
+    background-color: #F1FAEE;  
+    overflow-wrap: break-word;  
+    color: #1D3557;
+}
+.activities-div{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+
+}
+
+.border{
+    margin-bottom: 0;
+    border: 0px solid red;
+    align-items: center;
+    width: 20%;
+}
+.activities-title{
+    font-weight: bold;
+    font-size: 19px;
+}
+.activities-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.activities{
+    padding-bottom: 45px;
+}
+.activities-paragraph{
+    
+    
+    text-align: center;
+   /* width: 50%;*/
+    border: 0px solid red;
+}
+.guide{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+}
+
+.guide-card{
+    color: #1D3557;
+    background-color: #A8DADC;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px;
+    border-radius: 10px;
+    width: 35%;
+    border-bottom: 6px solid #1D3557;
+   
+}
+.wrapper-guide-text{
+    padding-left: 10px;
+}
+.guia-img{
+    width: 250px;
+    border-radius: 10px;
+}
